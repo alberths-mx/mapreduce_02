@@ -1,0 +1,107 @@
+User-agent: Applebot
+Allow: /
+
+User-agent: baiduspider
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Discordbot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: FacebookBot
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Mediapartners-Google
+Allow: /
+
+User-agent: Adsbot-Google
+Allow: /
+
+User-agent: ia_archiver
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: msnbot
+Allow: /
+
+User-agent: Naverbot
+Allow: /
+
+User-agent: Pinterestbot
+Allow: /
+
+User-agent: PetalBot
+Allow: /
+
+User-agent: seznambot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: teoma
+Allow: /
+
+User-agent: TelegramBot
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: Yandex
+Allow: /
+
+User-agent: Yeti
+Allow: /
+
+User-agent: Exabot
+Allow: /
+
+User-agent: CriteoBot/0.1
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: AhrefsBot
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: AmazonAdBot
+Allow: /
+
+User-agent: AdIdxBot
+Allow: /
+
+User-agent: BingPreview
+Allow: /
+
+User-agent: MicrosoftPreview
+Allow: /
+
+User-agent: GoogleOther
+Allow: /
+
+User-agent: grapeshot
+Allow: /
+
+User-agent: Google-InspectionTool
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: *
+Disallow: /
