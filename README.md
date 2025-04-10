@@ -19,12 +19,19 @@ Este comando va a iniciar los 5 contenedores requeridos. Al ejecutarse por 1era 
 # ¿Cómo hacer el mapreduce de la tarea 2?
 
 1.0- Levantar un nodo de Hadoop
+
 2.0- Entrar al nodo maestro
+
 3.0- Crear una carpeta en la raiz(root)
+
 4.0- Elegir un archivo de tú elección (se admiten formatos CSV, JSON, XML y otros).
+
 4.1.- Se descargó un archivo de texto de internet llamado robots.txt
+
 4.2.- Para éste ejercicio se requirió de un archivo de java(.jar)
+
 5.0- Ingresar el archivo de texto en la carpeta donde tenemos el repositorio de Docker-Hadoop
+
 5.1- Ingresar el archivo de java en la carpeta donde tenemos el repositorio de Docker-Hadoop
 
 ![image](https://github.com/user-attachments/assets/08bd9e19-d25b-482b-aa8d-83be0dd574ca)
