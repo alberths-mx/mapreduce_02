@@ -1,6 +1,6 @@
 [![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/big-data-europe/Lobby)
 
-# ¿Cómo levantar el nodo de hadoop?
+# ¿Cómo levantar el nodo de Hadoop?
 
 Una vez instalada la plataforma de sotware Docker y habiendo configurado corrrectamente el Subsistema de Windows para Linux (WLS), se procederá a realizar lo siguiente:
 
@@ -8,7 +8,7 @@ Una vez instalada la plataforma de sotware Docker y habiendo configurado corrrec
 
 2.- Desde el CMD ingresar a la carpeta donde tenemos el repositorio de Docker-Hadoop
 
-![image](https://github.com/user-attachments/assets/76445368-0e09-4f38-8512-6490008ccbf9)
+![image](https://github.com/user-attachments/assets/115748a8-552d-4083-ac99-fe49a7965fbf)
 
 3.- Ejecutamos el siguiente código: docker-compose up -d
 
@@ -17,6 +17,18 @@ Una vez instalada la plataforma de sotware Docker y habiendo configurado corrrec
 Este comando va a iniciar los 5 contenedores requeridos. Al ejecutarse por 1era vez, se deberá esperar a que se completen las descargas correspondientes.
 
 # ¿Cómo hacer el mapreduce de la tarea 2?
+
+1.0- Levantar un nodo de Hadoop
+2.0- Entrar al nodo maestro
+3.0- Crear una carpeta en la raiz(root)
+4.0- Elegir un archivo de tú elección (se admiten formatos CSV, JSON, XML y otros).
+4.1.- Se descargó un archivo de texto de internet llamado robots.txt
+4.2.- Para éste ejercicio se requirió de un archivo de java(.jar)
+5.0- Ingresar el archivo de texto en la carpeta donde tenemos el repositorio de Docker-Hadoop
+5.1- Ingresar el archivo de java en la carpeta donde tenemos el repositorio de Docker-Hadoop
+
+![image](https://github.com/user-attachments/assets/08bd9e19-d25b-482b-aa8d-83be0dd574ca)
+
 
 # ¿Cómo hacer el mapreduce de la tarea 3?
 
