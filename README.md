@@ -36,6 +36,11 @@ Este comando va a iniciar los 5 contenedores requeridos. Al ejecutarse por 1era 
 
 ![image](https://github.com/user-attachments/assets/08bd9e19-d25b-482b-aa8d-83be0dd574ca)
 
+6.0.- Ingresar ambos archivos (.txt y .jar) en la carpeta temporal de docker compose
+
+![image](https://github.com/user-attachments/assets/21253196-d636-49d3-b6e6-c0f5e33bb12d)
+
+
 
 # ¿Cómo hacer el mapreduce de la tarea 3?
 
