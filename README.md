@@ -5,9 +5,13 @@
 Una vez instalada la plataforma de sotware Docker y habiendo configurado corrrectamente el Subsistema de Windows para Linux (WLS), se procederá a realizar lo siguiente:
 
 1.- Ejecutar docker y la terminal de comandos de Windows(CMD), ambos en modo admin.
+
 2.- Desde el CMD ingresar a la carpeta donde tenemos el repositorio de Docker-Hadoop
+
 ![image](https://github.com/user-attachments/assets/76445368-0e09-4f38-8512-6490008ccbf9)
+
 3.- Ejecutamos el siguiente código: docker-compose up -d
+
 ![image](https://github.com/user-attachments/assets/58c595d0-766b-411d-9dc4-f4be98d52a9e)
 
 Este comando va a iniciar los 5 contenedores requeridos. Al ejecutarse por 1era vez, se deberá esperar a que se completen las descargas correspondientes.
