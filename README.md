@@ -101,3 +101,7 @@ Una vez 'levantado' el nodo de Hadoop, realizar lo siguiente:
 7.2.- Comprobar que se encuentre el archivo en el repositorio dentro de Windows.
 
 ![image](https://github.com/user-attachments/assets/b257b7ea-7376-4861-ad3c-af500af7baa7)
+
+# ¿Cómo apagar el nodo principal de Hadoop dentro del contenedor de Docker?
+
+1.0.- Ejecutar el siguiente código docker stop hadoop-namenode
