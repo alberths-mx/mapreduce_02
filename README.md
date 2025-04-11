@@ -67,6 +67,28 @@ Ej. docker cp namenode:/tmp/robots_wc.txt .
 
 # ¿Cómo hacer el mapreduce de la tarea 3?
 
+Una vez 'levantado' el nodo de Hadoop, realizar lo siguiente:
+
+1.0.- Descargar el archivo de temperaturas
+
+2.0- Copiar el archivo el la carpeta temporal(tmp).
+
+![image](https://github.com/user-attachments/assets/e82e8ba5-4652-4be5-b5e5-d999fd245d33)
+
+3.0.- Ingresar al nodo principal (namenode bash)
+
+4.0.- Crear la carpeta donde se realizará el proceso de mapreduce. Ej. input_temperaduras_tarea3
+4.1.- Mover el archivo a la carpeta creada
+
+5.0.- Ejecutar el archivo de java
+
+6.0.- Ejecutar el comando -cat junto con la ruta donde está guardado nuestro archivo para visualizar el resultado de mapreduce
+
+7.0.- Exportar el archivo part-r-00000 hacia la carpeta temporal con el nombre del nombre del archivo y la extensión deseada. Ej. temperaturas_ordenadas_csv
+7.1.- Salir del nodo principal y ejecutar el siguiente código: docker cp namenode:/tmp/temperaturas_ordenadas.csv .
+7.2.- Comprobar que se encuentre el archivo en el repositorio dentro de Windows.
+
+
 ## Supported Hadoop Versions
 See repository branches for supported hadoop versions
 
