@@ -44,6 +44,26 @@ Este comando va a iniciar los 5 contenedores requeridos. Al ejecutarse por 1era 
 
 ![image](https://github.com/user-attachments/assets/44671f7d-12e0-488b-8423-a1081bdf6ebb)
 
+8.0.- Desde la misma ruta (tmp), ejecutar MapReduce (archivo .jar)
+
+![image](https://github.com/user-attachments/assets/03708abf-14e7-4a55-9b62-73f8a0b2b5b9)
+
+9.0.- ejecutar el comando hdfs dfs -cat, seguido de la ruta donde se encuentran nuestros archivos en la raiz y el símbolo *
+9.1.- Se muestra el contenido con el conteo de cada palabra contada en el archivo robots.txt
+
+![image](https://github.com/user-attachments/assets/fbc58355-2715-46dd-97fc-a513829ab0ed)
+
+10.0.- Verificar los archivos de salida y exportar que el archivo part-r-00000 que es el que tiene el resultado
+10-1.- ejecutar de nuevo el comando hdfs dfs -cat para exportar el archivo al formato y nombre deseados. Ej. robots_wc.xt
+10.2.- Ejecutar el siguiente comando docker cp namenode:/tmp/ + el nombre del archivo con su extensión y el símbolo (.)
+Ej. docker cp namenode:/tmp/robots_wc.txt .
+
+![image](https://github.com/user-attachments/assets/8e3235ea-9280-43e6-aff6-74feacf8ffed)
+
+11.0.- Verificar que el archivo se haya creado en el repositorio
+
+![image](https://github.com/user-attachments/assets/1f9ff6f2-ee72-4e91-8740-cbf73958e74f)
+
 
 # ¿Cómo hacer el mapreduce de la tarea 3?
 
