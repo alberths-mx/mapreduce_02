@@ -22,7 +22,7 @@ Este comando va a iniciar los 5 contenedores requeridos. Al ejecutarse por 1era 
 
 2.0- Entrar al nodo maestro
 
-3.0- Crear una carpeta en la raiz(root)
+3.0- Crear una carpeta en la raiz(root). Ej: imput_contador_tarea2
 
 4.0- Elegir un archivo de tú elección (se admiten formatos CSV, JSON, XML y otros).
 
@@ -40,6 +40,9 @@ Este comando va a iniciar los 5 contenedores requeridos. Al ejecutarse por 1era 
 
 ![image](https://github.com/user-attachments/assets/21253196-d636-49d3-b6e6-c0f5e33bb12d)
 
+7.0.- Desde la ruta temporal (tmp), cargar el archivo en el sistema de Hadoop (HDFS)
+
+![image](https://github.com/user-attachments/assets/44671f7d-12e0-488b-8423-a1081bdf6ebb)
 
 
 # ¿Cómo hacer el mapreduce de la tarea 3?
